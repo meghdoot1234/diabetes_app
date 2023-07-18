@@ -78,6 +78,12 @@ with tab3:
     with st.expander("Diastolic Blood Pressure"):
         st.write("Blood pressure is measured using two numbers: The first number, called systolic blood pressure, measures the pressure in your arteries when your heart beats. The second number, called diastolic blood pressure, measures the pressure in your arteries when your heart rests between beats.")
         st.image("bp.jpg")
+    with st.expander("Triceps skinfold (TSF) thickness"):
+        st.write("Triceps skinfold (TSF) thickness is an economical and convenient measurement to assess trunk and overall obesity. TSF could be used as a reasonable surrogate to investigate the relationship between subcutaneous fat and mortality (20).")
+        st.image("tricep.jpg")
+    with st.expander("Diabetes pedigree function (DPF)"):
+        st.write("Diabetes pedigree function (DPF) calculates diabetes likelihood depending on the subject's age and his/her diabetic family history. Very little is known about the determinants of DPF for gestational diabetes mellitus (GDM) and normal women.")
+        st.image("dpf.jpg")
 
         
    
