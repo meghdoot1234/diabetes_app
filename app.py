@@ -26,7 +26,8 @@ tab1, tab2, tab3 = st.tabs(["Male", "Female","Glossary"])
 #st.header("Choose your Gender to proceed")
 with tab1:
    st.header("Welcome to Our Diabetes Prediction App")
-   st.title('Diabetes Prediction(Only for males above 21years of age)')
+   st.divider()
+   st.header(':red[_Diabetes Prediction(Only for males above 21years of age)_]')
    glucose = st.slider("Plasma Glucose Concentration :",0,199,1); st.caption(":red[_Input between 0 to 199_]")
    bp =  st.slider("Diastolic blood pressure (mm Hg)",0,122,1); st.caption(":red[_Input between 0 to 122_]")
    skin = st.slider("Triceps skin fold thickness (mm):",0,99,1); st.caption(":red[_Input between 0 to 99_]")
@@ -46,8 +47,9 @@ with tab1:
 
 with tab2:
    st.header("Welcome to Our Diabetes Prediction App")
+   st.divider()
    #st.image("https://static.streamlit.io/examples/dog.jpg", width=200)
-   st.title('Diabetes Prediction(Only for females above 21years of age)')
+   st.header(':red[_Diabetes Prediction(Only for females above 21years of age)_]')
     #name = st.text_input("Name:")
    pregnancy = st.number_input("No. of times pregnant:");  st.caption(":red[_Input between 0 to 17_]")
    glucose = st.number_input("Plasma Glucose Concentration :"); st.caption(":red[_Input between 0 to 199_]")
