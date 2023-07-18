@@ -39,10 +39,10 @@ with tab1:
    if submit:
         prediction = classifier_m.predict([[glucose, bp, skin, insulin, bmi, dpf, age]])
         if prediction == 0:
-            st.write('Congratulation','You are not diabetic')
+            st.write(':blue[Congratulation','You are not diabetic]')
             st.caption(":red[_NB: The dataset used for this study is PIMA Indian Diabetes Dataset from Kaggle_]")
         else:
-            st.write(" We are really sorry to say but it seems like you are Diabetic.")
+            st.write(" :red[_We are really sorry to say but it seems like you are Diabetic_]")
             st.caption(":red[_NB: The dataset used for this study is PIMA Indian Diabetes Dataset from Kaggle_]")
 
 with tab2:
@@ -63,10 +63,10 @@ with tab2:
    if submit:
         prediction = classifier.predict([[pregnancy, glucose, bp, skin, insulin, bmi, dpf, age]])
         if prediction == 0:
-            st.write('Congratulation','You are not diabetic')
+            st.write(':blue[Congratulation','You are not diabetic]')
             st.caption(":red[_NB: The dataset used for this study is PIMA Indian Diabetes Dataset from Kaggle_]")
         else:
-            st.write(" We are really sorry to say but it seems like you are Diabetic.")
+            st.write(" :red[_We are really sorry to say but it seems like you are Diabetic_]")
             st.caption(":red[_NB: The dataset used for this study is PIMA Indian Diabetes Dataset from Kaggle_]")
 with tab3:
     with st.expander("Body Mass Index"):
