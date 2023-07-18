@@ -9,7 +9,7 @@ import numpy as np
 import pickle
 from PIL import Image
 
-image = Image.open('logo.jpg')
+image = Image.open('logo.png')
 
 st.image(image, caption='')
 
